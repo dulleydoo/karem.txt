@@ -2,17 +2,17 @@ date
 Gives you the current date
 abdulkarem@abduls-MacBook-Air DevProjects % date
 Wed Aug 31 09:19:07 EDT 2022
-______________________________________________________
+____________________________________________________________________
 whoami
 Gives the name on the laptop
 abdulkarem@abduls-MacBook-Air DevProjects % whoami
 abdulkarem
-______________________________________________________
+____________________________________________________________________
 pwd (Print Working Directory)
 Gives you the current position and how you got there.
 abdulkarem@abduls-MacBook-Air DevProjects % pwd
 /Users/abdulkarem/DevProjects
-______________________________________________________
+____________________________________________________________________
 cd (change diretory)
 
 Change to one directory
@@ -41,7 +41,7 @@ cd -
 Takes you to your previous directory
 abdulkarem@abduls-MacBook-Air DevProjects % cd -
 ~/DevProjects/Person
-______________________________________________________
+___________________________________________________________________
 ls (List directory)
 Lists all the content in the directory
 abdulkarem@abduls-MacBook-Air Person % ls
@@ -64,7 +64,79 @@ drwx------+  5 abdulkarem  staff     160 May  4 07:48 Pictures
 drwxr-xr-x   2 abdulkarem  staff      64 Aug 30 20:53 Projects
 drwxr-xr-x+  4 abdulkarem  staff     128 Apr 21  2021 Public
 -rw-------@  1 abdulkarem  staff  648290 Jul 12  2021 hjbjhb.pdf format
-______________________________________________________
+___________________________________________________________________
 touch
 Allows you to create a new file
+abdulkarem@abduls-MacBook-Air txt % touch mik.txt
+abdulkarem@abduls-MacBook-Air txt % ls
+kareeem.txt	mik.txt
+___________________________________________________________________
+file
+Tells you what kind of file it is
+abdulkarem@abduls-MacBook-Air txt % file mik.txt 
+mik.txt: empty
+___________________________________________________________________
+cat
+Gives you the content of file.
+___________________________________________________________________
+cp (copy)
+Copies the file
+abdulkarem@abduls-MacBook-Air txt % cp mik.txt 
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+___________________________________________________________________
+mv (Move)
+Swaps files
+abdulkarem@abduls-MacBook-Air txt % mv mik.txt PROJECTSS 
+abdulkarem@abduls-MacBook-Air txt % ls
+PROJECTSS	kareeem.txt
+abdulkarem@abduls-MacBook-Air txt % mv PROJECTSS mik.txt 
+abdulkarem@abduls-MacBook-Air txt % ls
+kareeem.txt	mik.txt
+abdulkarem@abduls-MacBook-Air txt % 
+___________________________________________________________________
+mkdir (make directory)
+Creates a directory
+abdulkarem@abduls-MacBook-Air txt % mkdir folder
+abdulkarem@abduls-MacBook-Air txt % ls
+folder		kareeem.txt	mik.txt
+___________________________________________________________________
+rm (remove)
+Removes files
+folder		kareeem.txt	mik.txt
+abdulkarem@abduls-MacBook-Air txt % rm mik.txt
+abdulkarem@abduls-MacBook-Air txt % ls
+folder		kareeem.txt
+___________________________________________________________________
+find 
+It will navigate you to a file.
+___________________________________________________________________
+man 
+Manual gives you a manual of the command you type right after it 
+___________________________________________________________________
+whatis 
+What is command tells you what the command does
+___________________________________________________________________
+alias
+Alias is used when you use a command a lot and want to create a shortcut for it
+For example 
+alias foobar='ls -la'
+___________________________________________________________________
+exit
+Exit command will take you out of shell/terminal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
