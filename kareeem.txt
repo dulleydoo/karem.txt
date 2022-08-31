@@ -1,0 +1,70 @@
+date
+Gives you the current date
+abdulkarem@abduls-MacBook-Air DevProjects % date
+Wed Aug 31 09:19:07 EDT 2022
+______________________________________________________
+whoami
+Gives the name on the laptop
+abdulkarem@abduls-MacBook-Air DevProjects % whoami
+abdulkarem
+______________________________________________________
+pwd (Print Working Directory)
+Gives you the current position and how you got there.
+abdulkarem@abduls-MacBook-Air DevProjects % pwd
+/Users/abdulkarem/DevProjects
+______________________________________________________
+cd (change diretory)
+
+Change to one directory
+abdulkarem@abduls-MacBook-Air ~ % cd DevProjects
+abdulkarem@abduls-MacBook-Air DevProjects %
+
+Change to multiple directories
+abdulkarem@abduls-MacBook-Air ~ % cd DevProjects/Person
+abdulkarem@abduls-MacBook-Air Person % 
+
+cd ~ 
+Back to home directory
+abdulkarem@abduls-MacBook-Air DevProjects % cd ~
+abdulkarem@abduls-MacBook-Air ~ % 
+
+cd .
+Current directory
+abdulkarem@abduls-MacBook-Air Person % cd .
+abdulkarem@abduls-MacBook-Air Person % 
+
+cd ..
+Takes you to parent directory of your current directory
+abdulkarem@abduls-MacBook-Air Person % cd ..
+
+cd -
+Takes you to your previous directory
+abdulkarem@abduls-MacBook-Air DevProjects % cd -
+~/DevProjects/Person
+______________________________________________________
+ls (List directory)
+Lists all the content in the directory
+abdulkarem@abduls-MacBook-Air Person % ls
+pom.xml	src	target
+
+ls -l
+Shows a detailed list of files in 
+abdulkarem@abduls-MacBook-Air ~ % ls -l
+total 1976
+drwx------@  5 abdulkarem  staff     160 Jun  8 20:19 Applications
+drwx------@ 15 abdulkarem  staff     480 Aug 30 21:19 Desktop
+drwxr-xr-x   8 abdulkarem  staff     256 Aug 31 10:49 DevProjects
+drwx------@  6 abdulkarem  staff     192 Jun 24 10:49 Documents
+drwx------+ 42 abdulkarem  staff    1344 Aug 30 13:21 Downloads
+drwx------@ 84 abdulkarem  staff    2688 Jun  8 17:24 Library
+-rw-------@  1 abdulkarem  staff  360398 Jul  6  2021 Microsoft Word - Accident Claim Form(ver.8)(67715)_new.doc.pdf
+drwx------   4 abdulkarem  staff     128 Apr 22  2021 Movies
+drwx------+  4 abdulkarem  staff     128 Jul 24  2021 Music
+drwx------+  5 abdulkarem  staff     160 May  4 07:48 Pictures
+drwxr-xr-x   2 abdulkarem  staff      64 Aug 30 20:53 Projects
+drwxr-xr-x+  4 abdulkarem  staff     128 Apr 21  2021 Public
+-rw-------@  1 abdulkarem  staff  648290 Jul 12  2021 hjbjhb.pdf format
+______________________________________________________
+touch
+Allows you to create a new file
+
